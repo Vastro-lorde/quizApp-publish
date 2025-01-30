@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "quizApp",
   "resources": {
-    "hash": "sha256-c0fzLHmfbxXdSV76I8/qF0DpTwSP2hATcvd501dg60o=",
+    "hash": "sha256-g362h8jI2eIr5da8nKJtM83i3G/oidGTCMF+AzzMgdo=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-B6DNRvFeCUi3jbx9uKpuj+hV9cN0KG4RdZj1FgBZwj8="
     },
@@ -33,7 +33,7 @@
       "Microsoft.Extensions.Primitives.wasm": "sha256-xyqqv0SMCahnrOs+p5QYDHoh/BAYlbNtyjTTpqmRW/g=",
       "Microsoft.JSInterop.wasm": "sha256-ICXLq30Kx12ovtFDxzAoE/0fmcaLmtQPle25CPQpiBY=",
       "Microsoft.JSInterop.WebAssembly.wasm": "sha256-RhVAz265IFi9sK3YF5C+qnevStoIPeRZ8rOqY/P0wc4=",
-      "quizApp.wasm": "sha256-xct1CNCc5V8UmcDOucwUxP7N3e0I1mlcQ9KzGsxEdbw=",
+      "quizApp.wasm": "sha256-eXAqL8VGkfW0vcazPi6t2Qtrt0VAE29umloev6vaJMw=",
       "System.Collections.Concurrent.wasm": "sha256-4qh3FvcS26pouj4rQelOyLsPqeJi7bGm8BZ1deeqIS4=",
       "System.Collections.Specialized.wasm": "sha256-mWa13Jnn7hcuvT4w7I6f0AGYVUZToWUyGssRbwfGffw=",
       "System.Collections.wasm": "sha256-GhjiTlOY7qFU5GmKCWzYEXBNt6qu1R9saJEP+TAcqjQ=",

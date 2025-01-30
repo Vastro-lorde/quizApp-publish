@@ -1,8 +1,8 @@
 self.assetsManifest = {
-  "version": "8tcFdpU8",
+  "version": "qEnWWs2f",
   "assets": [
     {
-      "hash": "sha256-U0cVTIat+Qgh0BvFEBH6b+np1EoozQUr867/gqpAYbs=",
+      "hash": "sha256-wsf2kEaV/L497koG3CwtADjAgTo/jUz/dX0/tDK8wiw=",
       "url": "404.html"
     },
     {
@@ -166,7 +166,7 @@ self.assetsManifest = {
       "url": "_framework/System.wasm"
     },
     {
-      "hash": "sha256-alNkQFs7ZzNMSOWduIV6+HGZ6AAqF/YNBALsRJFGAoo=",
+      "hash": "sha256-NBjZoQwfm2V5cjl4UXqthF33U5q4c8NYUTByoqAgh1M=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -202,7 +202,7 @@ self.assetsManifest = {
       "url": "_framework/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-xct1CNCc5V8UmcDOucwUxP7N3e0I1mlcQ9KzGsxEdbw=",
+      "hash": "sha256-eXAqL8VGkfW0vcazPi6t2Qtrt0VAE29umloev6vaJMw=",
       "url": "_framework/quizApp.wasm"
     },
     {
@@ -230,7 +230,7 @@ self.assetsManifest = {
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-olP5eL64DPvir52GZdqKds5KcolNLNBH8JuUGvY5L44=",
+      "hash": "sha256-eyUPFccIFcXaAnkm3pg8bF28UbTb+tkICe5vFeNpCfM=",
       "url": "index.html"
     },
     {
