@@ -3,8 +3,11 @@
 <head>
     <script>
         var path = window.location.pathname;
-        if (!path.startsWith("/quizApp-publish/")) {
-            window.location.href = "/quizApp-publish/";
+        var base = "/quizApp-publish/";
+        if (!path.startsWith(base)) {
+            window.location.href = base;
+        } else {
+            window.location.href = base + "index.html";
         }
     </script>
 </head>
