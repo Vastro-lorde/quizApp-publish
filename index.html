@@ -5,12 +5,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>quizApp</title>
-    <base href="https://github.com/Vastro-lorde/quizApp-publish/" />
+    <base href="/quizApp-publish/" />
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="css/app.css" />
     <link rel="icon" type="image/png" href="favicon.png" />
     <link href="quizApp.styles.css" rel="stylesheet" />
-    <link href="manifest.webmanifest" rel="manifest" />
+    <link href="./manifest.webmanifest" rel="manifest" />
     <link rel="apple-touch-icon" sizes="512x512" href="icon-512.png" />
     <link rel="apple-touch-icon" sizes="192x192" href="icon-192.png" />
     <script src="indexDb.js"></script>
@@ -31,7 +31,13 @@
         <a class="dismiss">🗙</a>
     </div>
     <script src="_framework/blazor.webassembly.js"></script>
-    <script>navigator.serviceWorker.register('service-worker.js');</script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/quizApp-publish/service-worker.js').catch(() => 
+                console.warn("Service Worker registration failed."));
+        }
+    </script>
+    
 </body>
 
 </html>
